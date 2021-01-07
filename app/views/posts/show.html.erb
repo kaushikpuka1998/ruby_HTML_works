@@ -1,6 +1,8 @@
-<h1> <%= @post.title %></h1>
+<article>
+<h1>  Details of  <%= @post.title %></h1>
 
 <p>
 <li> <%= @post.text%> </li>
 </p>
+</article>
 <%= link_to "Back to All Posts" , posts_path %>
