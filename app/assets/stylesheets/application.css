@@ -40,19 +40,22 @@
   }
 
   .greenbuttton{
-    margin-left: 300px;
+    margin-left: 280px;
     
   }
 
   form{
+    border: 3px solid #f1f1f1;
     position: relative;
-    border-radius: 2cm;
+   
     border-color: rgb(32, 179, 110);
     margin-left: 600px;
+    margin-right: 500px;
+  
+    position: center;
     margin-top: 100px;
- 
 
-    top: 45%;
+  
   }
 
   footer {
