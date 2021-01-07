@@ -17,6 +17,10 @@ class PostsController < ApplicationController
        @post =  Post.new
     end
 
+    def youtube
+        redirect_to ('http://youtube.com')
+    end
+
     def create
         post = Post.new(post_params)
 
